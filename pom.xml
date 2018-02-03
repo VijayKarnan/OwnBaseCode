@@ -62,7 +62,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>createLeadPO.xml</suiteXmlFile>
+						<suiteXmlFile>flipkart.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
