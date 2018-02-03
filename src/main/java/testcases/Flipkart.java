@@ -29,6 +29,7 @@ public class Flipkart {
 		WebDriverWait wait=new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(motorola));
 		builder.click(motorola).build().perform();
+		System.out.println("Success Vijay");
 	}
 
 }
