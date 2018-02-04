@@ -13,7 +13,7 @@ public class ExcelDataProvider{
 		String[][] data = null ;
 
 		try {
-			FileInputStream fis = new FileInputStream("OwnBaseCode/data/"+dataSheetName+".xlsx");
+			FileInputStream fis = new FileInputStream("./data/"+dataSheetName+".xlsx");
 			XSSFWorkbook workbook = new XSSFWorkbook(fis);
 			XSSFSheet sheet = workbook.getSheetAt(0);	
 
