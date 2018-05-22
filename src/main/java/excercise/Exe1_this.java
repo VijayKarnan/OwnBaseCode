@@ -17,7 +17,7 @@ public class Exe1_this {
 
 	{
 
-		System.out.println("this() constructor is invoked");
+		System.out.println("this() constructor is invoked in this method");
 	}
 
 	public void input1(int y)
