@@ -32,7 +32,7 @@ public class Flipkart {
 		wait.until(ExpectedConditions.elementToBeClickable(motorola));
 		builder.click(motorola).build().perform();
 		System.out.println("Success Vijay Karnan");
-		System.out.println("Success Saravanan Karnan");
-	}
+		System.out.println("Success Saravana Vijay"	);
+}
 
 }

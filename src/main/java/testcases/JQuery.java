@@ -30,7 +30,7 @@ public class JQuery {
 		int location = item4.getLocation().getY();
 		WebElement item1 = driver.findElement(By.xpath("//li[text()='Item 1']"));
 		Actions builder=new Actions(driver);
-		builder.dragAndDropBy(item1, 0, location).build().perform();
+		builder.dragAndDropBy(item1, 3, location).build().perform();
 		
 		
 	}
